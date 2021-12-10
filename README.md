@@ -1,5 +1,4 @@
-# luyiwebhook
-# Basic Webhooks Example
+# Webhook Sample APP
 
 A basic [node.js](https://nodejs.org) implementation of a Webhook callback endpoint, which captures webhooks from Workplace and logs the details to the console.
 
