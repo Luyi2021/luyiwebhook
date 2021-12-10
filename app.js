@@ -32,9 +32,9 @@ app.use(bodyParser.json({ verify: verifyRequestSignature }));
  */
 //
 const
-  APP_SECRET = process.env.APP_SECRET,
-  VERIFY_TOKEN = process.env.VERIFY_TOKEN,
-  ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+  APP_SECRET = 'fc4ed887c17aa9eb59013e1dab733a6e',
+  VERIFY_TOKEN = 'luyi',
+  ACCESS_TOKEN = 'DQVJ2dDBKT3RCZAGFIWmppcF9hSkhYOWF0TElpSkwzTEo3dDI0d1o0SHhFQzMtTE51LXZATU2FTb3ZANT3FIeU1hMWJ6NFFhUGhTT2JROUVhTE4xMEtmQldvQjBzbkpDSHVtaWJRUkQ1bFRkUEdzOVNqVWtzdHBBeFpNSWp6akdqaWl3eFA1bUNCdy1Icm9kakRjQ1NfUFJEcjNmQjJNQ0tEWVV4MWJuZAWVINHN0MEpzNjVfYmNXS0F5cHVzZA0k2RmtlOVp4SmhR';
 
 if (!(APP_SECRET && VERIFY_TOKEN && ACCESS_TOKEN)) {
   console.error('Missing config values');
